@@ -28,3 +28,4 @@ elif num<0:
     print("negative")
 else:
     print("neutral")
+    print("ahmed")
