@@ -6,7 +6,20 @@ if num % 2==0:
 else:
     print("odd")
 
-# Q-2 to be learned
+# Q-2 
+age =int(input("enter your age: "))
+if age <=12:
+    print("child")
+else:
+    if age<=19:
+        print("teenager")
+    else:
+        if age<=59:
+            print("adult")
+        else:
+            print("old age")
+
+
 
 # Q-3
 num1=int(input("enter 1st number: "))
