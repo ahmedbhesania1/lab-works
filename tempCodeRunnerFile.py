@@ -1,11 +1,11 @@
-age =int(input("enter your age: "))
-if age <=12:
-    print("child")
-else:
-    if age<=19:
-        print("teenager")
-    else:
-        if age<=59:
-            print("adult")
+for i in range(1,51):
+    if i % 2 == 0:
+        if i % 3==0:
+            print(f"{i} divisible by both")
         else:
-            print("old age")
+            print(f"{i} divisible by 2")
+    else:
+        if i % 3==0:
+            print(f"{i} divisible by 3")
+        else:
+            print(f"{i} not divisible by 2 and 3")
