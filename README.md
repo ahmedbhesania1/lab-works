@@ -1,4 +1,4 @@
-# all lab works from module python
+# lab works
 <br>
 
 ## from red and white
